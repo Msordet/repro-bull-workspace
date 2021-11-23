@@ -9,7 +9,7 @@
       ]
     },
     "scripts": {
-      "build:backend": "yarn workspace apps/backend build",
+      "build:backend": "yarn workspace repro-bull-workspace build",
       "dev:backend": "yarn --cwd apps/backend dev",
       "nuke": "rm -fr node_modules && rm -fr ./*/*/node_modules && rm -rf ./*/*/dist && yarn"
     },
