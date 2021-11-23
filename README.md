@@ -2,7 +2,7 @@
 
 ## Installation
 
-Run `yarn`.
+Run `yarn`. (I use 1.22.15)
 
 ## Bug
 
