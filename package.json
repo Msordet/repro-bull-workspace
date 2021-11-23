@@ -1,0 +1,20 @@
+{
+    "name": "repro-bull-workspace",
+    "version": "1.0.0",
+    "private": true,
+    "license": "MIT",
+    "workspaces": {
+      "packages": [
+        "apps/backend"
+      ]
+    },
+    "scripts": {
+      "build:backend": "yarn workspace apps/backend build",
+      "dev:backend": "yarn --cwd apps/backend dev",
+      "nuke": "rm -fr node_modules && rm -fr ./*/*/node_modules && rm -rf ./*/*/dist && yarn"
+    },
+    "engines": {
+      "node": "14.x"
+    }
+  }
+  
